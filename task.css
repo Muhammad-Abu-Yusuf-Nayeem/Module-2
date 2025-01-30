@@ -1,0 +1,68 @@
+/* ************************************************* task 2 ****************************************/
+* {
+  color: brown;
+}
+.heading {
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: underline;
+  text-align: center;
+  border: 1px solid black;
+  border-style: dotted;
+  margin: 10px;
+}
+
+.para,
+#para {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: justify;
+  font-size: large;
+  font-style: italic;
+  margin: 10px;
+}
+
+.list ol {
+  text-align: center;
+}
+.list ol li {
+  padding: 2px 20px;
+  color: rgb(6, 112, 112);
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+/* ************************************************* task 3 ****************************************/
+
+/* ************************************************* task 4 ****************************************/
+.div {
+  float: left;
+  margin: 2px;
+  width: 48%;
+  min-height: 300px;
+  border: 2px solid rgb(54, 54, 241);
+}
+
+#div1 {
+  background-image: url(flower.jpg);
+  background-repeat: repeat-x;
+  background-color: aqua;
+  background-position: bottom;
+  background-size: auto;
+}
+#div2 {
+  background-image: url(flower2.jpg);
+  background-repeat: repeat-y;
+  background-color: rgb(80, 143, 143);
+  background-position: center;
+}
+#div3 {
+  background-image: url(flower3.jpg);
+  background-repeat: repeat-y;
+  background-color: rgb(187, 255, 0);
+  background-position: top;
+  background-size: contain;
+}
+#div4 {
+  background-image: url(flower4.jpg);
+  background-repeat: repeat-x;
+  background-color: rgb(77, 88, 182);
+  background-position: right;
+}

@@ -1,0 +1,34 @@
+.blog h3 {
+  font-size: 30px;
+  text-decoration: overline;
+}
+.second {
+  /* display: none; */
+}
+.third {
+  /* visibility: hidden; */
+  font-family: "Courier New", Courier, monospace;
+}
+.blog {
+  box-shadow: 5px 5px 5px violet;
+}
+.que {
+  padding: 10px;
+  font-weight: bolder;
+  width: 150px;
+  display: inline-block;
+}
+
+.header {
+  height: 300px;
+  background-image: url(flower.jpg);
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat-x; */
+  background-size: 300px;
+}
+
+.External {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+  font-size: 0.5cm;
+}
